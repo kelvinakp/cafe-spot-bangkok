@@ -1,0 +1,40 @@
+# Secrets
+.env
+backend/.env
+**/.env
+
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Flutter
+cafe_spot_bangkok/.dart_tool/
+cafe_spot_bangkok/.flutter-plugins
+cafe_spot_bangkok/.flutter-plugins-dependencies
+cafe_spot_bangkok/.packages
+cafe_spot_bangkok/build/
+cafe_spot_bangkok/.pub-cache/
+cafe_spot_bangkok/.pub/
+cafe_spot_bangkok/coverage/
+
+# Android / iOS / desktop build noise
+**/android/.gradle/
+**/android/local.properties
+**/android/app/debug/
+**/android/app/profile/
+**/android/app/release/
+**/ios/Pods/
+**/ios/.symlinks/
+**/macos/Flutter/ephemeral/
+**/linux/flutter/ephemeral/
+**/windows/flutter/ephemeral/
+
+# Misc
+.DS_Store
+*.log
+.vercel
+*.iml
+.idea/
+.vscode/
+
+

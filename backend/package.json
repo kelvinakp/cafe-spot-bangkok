@@ -1,0 +1,20 @@
+{
+  "name": "cafe-spot-bangkok-api",
+  "version": "1.0.0",
+  "description": "Cafe Spot Bangkok Express API for CSC452",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js"
+  },
+  "keywords": ["cafe", "bangkok", "express", "csc452"],
+  "author": "CSC452 Team",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "mysql2": "^3.11.0"
+  }
+}
